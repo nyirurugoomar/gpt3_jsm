@@ -121,4 +121,7 @@
     .gpt3__navbar-menu_container{
         top: 20px;
     }
+    .gpt3__navbar-menu_container-links-sign{
+        display: block;
+    }
 } 
