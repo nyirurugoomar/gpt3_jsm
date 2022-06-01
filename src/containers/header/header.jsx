@@ -8,7 +8,7 @@ const Header = () => {
     <div className='gpt3__header section__padding' id='home'>
         <div className='gpt3__header-content'>
           <h1 className='gradient__text'>
-            LET'S BUILD SOMETHING AMAZING WITH GPT3 OPENAI
+            LET'S BUILD SOMETHING AMAZING WITH GPT-3 OPENAI
           </h1>
           <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all 
             exercise blessing. Indulgence way everything 
@@ -22,10 +22,11 @@ const Header = () => {
             <img src={people} alt='people'/>
             <p>1,600 people requested access a visit in last 24 hours</p>
           </div>
-          {/* <div className='gpt3__header-image'>
-            <img src={ai} alt='ai'/>
-          </div> */}
+          
         </div>
+        <div className='gpt3__header-image'>
+            <img src={ai} alt='ai'/>
+          </div>
     </div>
   )
 }
